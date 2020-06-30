@@ -1,0 +1,162 @@
+2020-06-19 18:15:49,501 urllib3.connectionpool: DEBUG Starting new HTTPS connection (1): paper-api.alpaca.markets:443
+2020-06-19 18:15:49,953 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/orders?status=open HTTP/1.1" 200 2
+2020-06-19 18:15:49,954 root: INFO Waiting for market to open.
+2020-06-19 18:15:50,038 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:15:50,121 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:15:50,122 root: INFO 3614 minutes til market open.
+2020-06-19 18:16:50,281 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:16:50,366 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:16:50,366 root: INFO 3613 minutes til market open.
+2020-06-19 18:17:50,532 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 147
+2020-06-19 18:17:50,614 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:17:50,615 root: INFO 3612 minutes til market open.
+2020-06-19 18:18:50,774 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:18:50,857 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:18:50,859 root: INFO 3611 minutes til market open.
+2020-06-19 18:19:51,017 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:19:51,100 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:19:51,101 root: INFO 3610 minutes til market open.
+2020-06-19 18:20:51,262 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:20:51,348 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:20:51,349 root: INFO 3609 minutes til market open.
+2020-06-19 18:21:51,511 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:21:51,597 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:21:51,598 root: INFO 3608 minutes til market open.
+2020-06-19 18:22:51,751 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:22:51,835 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 147
+2020-06-19 18:22:51,836 root: INFO 3607 minutes til market open.
+2020-06-19 18:23:51,995 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:23:52,080 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:23:52,081 root: INFO 3606 minutes til market open.
+2020-06-19 18:27:14,121 root: INFO Market opened.
+2020-06-19 18:27:14,128 urllib3.connectionpool: DEBUG Starting new HTTPS connection (2): paper-api.alpaca.markets:443
+2020-06-19 18:27:14,990 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-19 18:27:15,003 urllib3.connectionpool: DEBUG Starting new HTTPS connection (1): data.alpaca.markets:443
+2020-06-19 18:27:15,903 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=DOMO&limit=10 HTTP/1.1" 200 667
+2020-06-19 18:27:16,088 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TLRY&limit=10 HTTP/1.1" 200 630
+2020-06-19 18:27:16,269 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SQ&limit=10 HTTP/1.1" 200 671
+2020-06-19 18:27:16,452 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=MRO&limit=10 HTTP/1.1" 200 648
+2020-06-19 18:27:16,635 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=AAPL&limit=10 HTTP/1.1" 200 690
+2020-06-19 18:27:16,817 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=GM&limit=10 HTTP/1.1" 200 678
+2020-06-19 18:27:17,181 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SNAP&limit=10 HTTP/1.1" 200 687
+2020-06-19 18:27:17,356 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SHOP&limit=10 HTTP/1.1" 200 707
+2020-06-19 18:27:17,512 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SPLK&limit=10 HTTP/1.1" 200 718
+2020-06-19 18:27:17,674 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=BA&limit=10 HTTP/1.1" 200 707
+2020-06-19 18:27:17,829 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=AMZN&limit=10 HTTP/1.1" 200 739
+2020-06-19 18:27:17,980 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SUI&limit=10 HTTP/1.1" 200 704
+2020-06-19 18:27:18,140 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SUN&limit=10 HTTP/1.1" 200 683
+2020-06-19 18:27:18,312 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TSLA&limit=10 HTTP/1.1" 200 739
+2020-06-19 18:27:18,469 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=CGC&limit=10 HTTP/1.1" 200 662
+2020-06-19 18:27:18,627 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SPWR&limit=10 HTTP/1.1" 200 649
+2020-06-19 18:27:18,783 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=NIO&limit=10 HTTP/1.1" 200 643
+2020-06-19 18:27:18,959 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=CAT&limit=10 HTTP/1.1" 200 716
+2020-06-19 18:27:19,121 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=MSFT&limit=10 HTTP/1.1" 200 725
+2020-06-19 18:27:19,277 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=PANW&limit=10 HTTP/1.1" 200 710
+2020-06-19 18:27:19,436 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=OKTA&limit=10 HTTP/1.1" 200 709
+2020-06-19 18:27:19,608 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TWTR&limit=10 HTTP/1.1" 200 684
+2020-06-19 18:27:19,794 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TM&limit=10 HTTP/1.1" 200 698
+2020-06-19 18:27:19,948 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=RTN&limit=10 HTTP/1.1" 200 702
+2020-06-19 18:27:20,105 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=ATVI&limit=10 HTTP/1.1" 200 681
+2020-06-19 18:27:20,266 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=GS&limit=10 HTTP/1.1" 200 707
+2020-06-19 18:27:20,435 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=BAC&limit=10 HTTP/1.1" 200 685
+2020-06-19 18:27:20,892 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=MS&limit=10 HTTP/1.1" 200 680
+2020-06-19 18:27:21,066 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TWLO&limit=10 HTTP/1.1" 200 707
+2020-06-19 18:27:21,223 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=QCOM&limit=10 HTTP/1.1" 200 674
+2020-06-19 18:27:21,412 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/account HTTP/1.1" 200 723
+2020-06-19 18:27:21,585 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=ATVI&limit=1 HTTP/1.1" 200 77
+2020-06-19 18:27:21,755 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=BAC&limit=1 HTTP/1.1" 200 68
+2020-06-19 18:27:21,914 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TLRY&limit=1 HTTP/1.1" 200 70
+2020-06-19 18:27:22,077 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=DOMO&limit=1 HTTP/1.1" 200 76
+2020-06-19 18:27:22,242 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=PANW&limit=1 HTTP/1.1" 200 81
+2020-06-19 18:27:22,403 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=QCOM&limit=1 HTTP/1.1" 200 77
+2020-06-19 18:27:22,566 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SNAP&limit=1 HTTP/1.1" 200 79
+2020-06-19 18:27:22,722 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TWLO&limit=1 HTTP/1.1" 200 81
+2020-06-19 18:27:22,879 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SUI&limit=1 HTTP/1.1" 200 79
+2020-06-19 18:27:23,040 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SUN&limit=1 HTTP/1.1" 200 74
+2020-06-19 18:27:23,197 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=MSFT&limit=1 HTTP/1.1" 200 79
+2020-06-19 18:27:23,366 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=SPWR&limit=1 HTTP/1.1" 200 74
+2020-06-19 18:27:23,536 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=RTN&limit=1 HTTP/1.1" 200 78
+2020-06-19 18:27:23,692 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=AMZN&limit=1 HTTP/1.1" 200 83
+2020-06-19 18:27:23,798 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/orders?status=open HTTP/1.1" 200 2
+2020-06-19 18:27:23,800 root: INFO We are taking a long position in: ['ATVI', 'BAC', 'TLRY', 'DOMO', 'PANW', 'QCOM', 'SNAP']
+2020-06-19 18:27:23,800 root: INFO We are taking a short position in: ['TWLO', 'SUI', 'SUN', 'MSFT', 'SPWR', 'RTN', 'AMZN']
+2020-06-19 18:27:23,905 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/positions HTTP/1.1" 200 None
+2020-06-19 18:27:24,017 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,019 root: INFO Market order of | 5 TSLA buy | completed.
+2020-06-19 18:27:24,123 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,124 root: INFO Market order of | 64 TM sell | completed.
+2020-06-19 18:27:24,238 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,239 root: INFO Market order of | 64 SUI sell | completed.
+2020-06-19 18:27:24,344 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,346 root: INFO Market order of | 64 SQ sell | completed.
+2020-06-19 18:27:24,453 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,454 root: INFO Market order of | 64 SPWR sell | completed.
+2020-06-19 18:27:24,572 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:24,573 root: INFO Market order of | 64 SPLK sell | completed.
+2020-06-19 18:27:24,677 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,679 root: INFO Market order of | 5 SNAP buy | completed.
+2020-06-19 18:27:24,795 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:24,796 root: INFO Market order of | 64 SHOP sell | completed.
+2020-06-19 18:27:24,901 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:24,903 root: INFO Market order of | 5 PANW buy | completed.
+2020-06-19 18:27:25,012 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 682
+2020-06-19 18:27:25,014 root: INFO Market order of | 5 MRO buy | completed.
+2020-06-19 18:27:25,129 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:25,131 root: INFO Market order of | 64 GS sell | completed.
+2020-06-19 18:27:25,255 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 684
+2020-06-19 18:27:25,257 root: INFO Market order of | 2 AMZN sell | completed.
+2020-06-19 18:27:25,363 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:25,365 root: INFO Market order of | 5 AAPL buy | completed.
+2020-06-19 18:27:25,487 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:25,489 root: INFO Market order of | 218 ATVI buy | completed.
+2020-06-19 18:27:25,631 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 684
+2020-06-19 18:27:25,632 root: INFO Market order of | 218 BAC buy | completed.
+2020-06-19 18:27:25,754 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:25,755 root: INFO Market order of | 218 TLRY buy | completed.
+2020-06-19 18:27:25,875 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:25,877 root: INFO Market order of | 218 DOMO buy | completed.
+2020-06-19 18:27:25,975 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 403 228
+2020-06-19 18:27:25,977 root: INFO Order of | 218 PANW buy | did not go through.
+2020-06-19 18:27:26,095 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:26,097 root: INFO Market order of | 218 QCOM buy | completed.
+2020-06-19 18:27:26,198 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 403 228
+2020-06-19 18:27:26,200 root: INFO Order of | 218 SNAP buy | did not go through.
+2020-06-19 18:27:26,358 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=ATVI&limit=1 HTTP/1.1" 200 77
+2020-06-19 18:27:26,527 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=BAC&limit=1 HTTP/1.1" 200 68
+2020-06-19 18:27:26,689 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TLRY&limit=1 HTTP/1.1" 200 70
+2020-06-19 18:27:26,850 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=DOMO&limit=1 HTTP/1.1" 200 76
+2020-06-19 18:27:27,009 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=QCOM&limit=1 HTTP/1.1" 200 77
+2020-06-19 18:27:27,141 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 684
+2020-06-19 18:27:27,142 root: INFO Market order of | 7 TWLO sell | completed.
+2020-06-19 18:27:27,242 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 403 227
+2020-06-19 18:27:27,244 root: INFO Order of | 7 SUI sell | did not go through.
+2020-06-19 18:27:27,341 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 403 60
+2020-06-19 18:27:27,342 root: INFO Order of | 7 SUN sell | did not go through.
+2020-06-19 18:27:27,464 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 684
+2020-06-19 18:27:27,466 root: INFO Market order of | 7 MSFT sell | completed.
+2020-06-19 18:27:27,567 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 403 228
+2020-06-19 18:27:27,568 root: INFO Order of | 7 SPWR sell | did not go through.
+2020-06-19 18:27:27,657 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 422 55
+2020-06-19 18:27:27,659 root: INFO Order of | 7 RTN sell | did not go through.
+2020-06-19 18:27:27,818 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=TWLO&limit=1 HTTP/1.1" 200 81
+2020-06-19 18:27:27,977 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=MSFT&limit=1 HTTP/1.1" 200 79
+2020-06-19 18:27:28,133 urllib3.connectionpool: DEBUG https://data.alpaca.markets:443 "GET /v1/bars/minute?symbols=AMZN&limit=1 HTTP/1.1" 200 83
+2020-06-19 18:27:28,259 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 683
+2020-06-19 18:27:28,261 root: INFO Market order of | 242 ATVI buy | completed.
+2020-06-19 18:27:28,395 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 684
+2020-06-19 18:27:28,397 root: INFO Market order of | 242 BAC buy | completed.
+2020-06-19 18:27:28,520 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:28,522 root: INFO Market order of | 242 TLRY buy | completed.
+2020-06-19 18:27:28,656 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:28,657 root: INFO Market order of | 242 DOMO buy | completed.
+2020-06-19 18:27:28,782 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 200 685
+2020-06-19 18:27:28,784 root: INFO Market order of | 242 QCOM buy | completed.
+2020-06-19 18:27:28,785 root: INFO Quantity is 0, order of | 0 TWLO sell | not completed.
+2020-06-19 18:27:28,786 root: INFO Quantity is 0, order of | 0 MSFT sell | not completed.
+2020-06-19 18:27:28,786 root: INFO Quantity is 0, order of | 0 AMZN sell | not completed.
+2020-06-30 16:28:09,938 urllib3.connectionpool: DEBUG Starting new HTTPS connection (1): paper-api.alpaca.markets:443
+2020-06-30 16:28:10,643 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/orders?status=open HTTP/1.1" 200 2
+2020-06-30 16:28:10,644 root: INFO Waiting for market to open.
+2020-06-30 16:28:10,730 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 147
+2020-06-30 16:28:10,818 urllib3.connectionpool: DEBUG https://paper-api.alpaca.markets:443 "GET /v2/clock HTTP/1.1" 200 148
+2020-06-30 16:28:10,819 root: INFO 841 minutes til market open.
