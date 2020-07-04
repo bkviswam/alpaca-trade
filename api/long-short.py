@@ -14,15 +14,21 @@ logger = logging.getLogger()
 class LongShort:
   def __init__(self):
     self.alpaca = tradeapi.REST(PAPI_KEY, PAPI_SECRET, PBASE_URL, 'v2')
-    #stockUniverse = stkwt_trnd.get_trending_stocks()
-    #logger.info("top tickers from stockwits {}".format(stockUniverse))
-    #if not stockUniverse:
+    stockUniverse_stktwt = stkwt_trnd.get_trending_stocks()
+    logger.info("top tickers from stocktwits {}".format(stockUniverse_stktwt))
+    #default tickers
     stockUniverse = ['DOMO', 'TLRY', 'SQ', 'MRO', 'AAPL', 'GM', 'SNAP', 'SHOP', 'SPLK', 'BA', 'AMZN', 'SUI', 'SUN', 'TSLA', 'CGC', 'SPWR', 'NIO', 'CAT', 'MSFT', 'PANW', 'OKTA', 'TWTR', 'TM', 'RTN', 'ATVI', 'GS', 'BAC', 'MS', 'TWLO', 'QCOM', ]
     # Format the allStocks variable for use in the class.
     self.allStocks = []
+    # add default tickers
     for stock in stockUniverse:
       self.allStocks.append([stock, 0])
-    print(self.allStocks)
+    # add stocktwits tickers
+    for stock in stockUniverse_stktwt:
+      if stock not in stockUniverse:
+        self.allStocks.append([stock, 0])
+
+    #print(self.allStocks)
     self.long = []
     self.short = []
     self.qShort = None
