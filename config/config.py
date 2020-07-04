@@ -8,3 +8,4 @@ API_SECRET = 'ga6fTiMQ6nISjcELNq5PXtu6h4NnWfz9AhBsCZCf'
 BASE_URL='https://api.alpaca.markets'
 #CONFIG
 MINS_TO_CLOSE = 2
+STKWTS_URL = 'https://api.stocktwits.com/api/2/trending/symbols.json'
