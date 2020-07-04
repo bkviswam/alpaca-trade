@@ -1,9 +1,8 @@
 import requests
 import json
-import add_trailing_comma
+from config.config import STKWTS_URL
 
-STKWTS_URL = 'https://api.stocktwits.com/api/2/trending/symbols.json'
-
+#parse the json and return the list of symbols
 def get_trending_stocks():
     response = requests.get(STKWTS_URL)
     result = json.loads(response.content.decode('utf-8'))
@@ -13,4 +12,4 @@ def get_trending_stocks():
         list.append(sym['symbol'])
     return list
 
-print(get_trending_stocks())
+#print(get_trending_stocks())
